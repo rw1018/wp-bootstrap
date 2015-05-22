@@ -1,53 +1,21 @@
 <?php get_header(); ?>
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="<?php bloginfo('template_directory'); ?>/images/rackofribs.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Sven's Barbecue Sauce.</h1>
-              <p>Sweet and Thick, Just Like Aunt Hilda.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php bloginfo('template_directory'); ?>/images/bbq-chicken.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Saucy.</h1>
-              <p>Grill i dag håller doktorn borta.</p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php bloginfo('template_directory'); ?>/images/wingsongrill.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Barbecue.</h1>
-              <p>Screw Shrimp, Put Another Full Rack of Ribs on the Barbie!</p>
-            </div>
-          </div>
+    <div class="banner-wrapper">
+      <div class="banner-content container text-center">
+        <div class="row">
+            <h1 class="">Hello World <br>
+              <small>This is just an example</small>
+            </h1>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+    </div>
 
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container marketing text-center">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -82,7 +50,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -90,7 +58,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
@@ -106,10 +74,10 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Generic placeholder image">
         </div>
       </div>
 
-    
-    
+
+
 <?php get_footer(); ?>

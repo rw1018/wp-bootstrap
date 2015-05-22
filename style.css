@@ -10,20 +10,56 @@ Version: 1.0
 Tags: custom-background, black, blue, brown, white, dark, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-image-header, flexible-header, full-width-template, theme-options
 */
 
-.navbar {
-	filter:alpha(opacity=60); /* IE */
-    -moz-opacity:0.6; /* Mozilla */
-    opacity: 0.6; /* CSS3 */
-}
-.navbar-brand {
-	padding: 0;
+.navbar-wrapper {
+	background-color: #3686BE;
 }
 
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-top: 40px;
+}
+.navbar .navbar-brand {
+	padding: 0;
+	display: inline-block;
+	line-height: 50px;
+	color: #fff;
+}
+
+.banner-wrapper {
+	min-height: 500px;
+	background-color: #3686BE;
+	color: #fff;
+}
+
+.banner-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.marketing {
+	padding-top: 50px;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #f8f8f8;
+}
+
+
 h1, h2 {
-	font-family: "Buenard","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .container-normal {
 	margin-top: 40px;
 }
-

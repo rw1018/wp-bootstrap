@@ -3,7 +3,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
- 
+
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -19,16 +19,16 @@
 <link href='http://fonts.googleapis.com/css?family=Buenard:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
- 
+
 <?php
-    /* 
+    /*
      *  Add this to support sites with sites with threaded comments enabled.
      */
     if ( is_singular() && get_option( 'thread_comments' ) )
         wp_enqueue_script( 'comment-reply' );
 
     wp_get_archives('type=monthly&format=link');
- 
+
     wp_head();
 ?>
 </head>
@@ -59,15 +59,14 @@
         		'depth'             => 2,
         		'container'         => 'div',
         		'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
-        		'menu_class'        => 'nav navbar-nav',
+        		'menu_class'        => 'nav navbar-nav navbar-right',
         		'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
         		'walker'            => new wp_bootstrap_navwalker())
-    		); 
+    		);
 			?>
             </div>
           </div>
         </div>
 
       </div>
-    </div>
-    
+</div>
