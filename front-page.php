@@ -3,9 +3,12 @@
     <div class="banner-wrapper">
       <div class="banner-content container text-center">
         <div class="row">
-            <h1 class="">Hello World <br>
+            <h1 class="">
+              <?php echo get_theme_mod( 'banner_lead', 'Hello, World!' ); ?>
+              <br>
               <small>This is just an example</small>
             </h1>
+
         </div>
       </div>
     </div>
